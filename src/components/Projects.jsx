@@ -9,7 +9,7 @@ const Projects = () => {
     <div className='w-full lg:h-[699px]  bg-black lg:pl-60 pl-3 font-mono'>
       <p className='font-semibold text-5xl text-[#0FFF50]  pt-20'>Projects</p>
       <p className='lg:text-xl  text-white mt-4 lg:w-3/4 text-sm'>Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.</p>
-      <div className='grid lg:grid-cols-4 xs:grid-cols-1 md:grid-cols-2 grid-cols-2 mt-28 text-center xs:ml-20 gap-3'>
+      <div className='grid lg:grid-cols-4 xs:grid-cols-1 md:grid-cols-3 grid-cols-1 mt-28 text-center xs:ml-40 xs:gap-14 gap-3'>
         <a href="https://fashion-fold.vercel.app/" target="_blank"
           rel="noopener noreferrer">
 

@@ -79,13 +79,13 @@ const Contact = () => {
                         onChange={handleChange}
                         id="message"
                         className="w-full bg-gray-900 h-32 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    /><br /><br />
+                    /><br />
                     <button type="submit" className='w-24 h-9 rounded-lg bg-[#0FFF50] text-black font-semibold'>
                         {loading ? "Loading..." : "Send"}
                     </button>
                 </form>
 
-                <p className='mt-3'>Or you can directly reach me at <br />hemantsharma805303@gmail.com</p>
+                <p className='mt-1'>Or you can directly reach me at <br />hemantsharma805303@gmail.com</p>
             </div>
             <img src={GetInTouch} alt="" className='hidden xl:block xl:w-[500px] xl:h-[500px] xl:mr-4' />
         </div>
